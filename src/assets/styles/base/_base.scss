@@ -14,3 +14,12 @@ figure {
   max-width: 100%;
   height: auto;
 }
+
+@include large {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}

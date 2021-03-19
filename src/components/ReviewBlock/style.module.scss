@@ -17,7 +17,6 @@
 
   .ReviewBlock__description {
     margin-top: 16px;
-    margin-right: 10%; // solo para el primer bloque
     line-height: 18px;
     font-size: 12px;
     font-weight: 500;
@@ -35,7 +34,10 @@
 
     .ReviewBlock__summary { color: $color-4; }
 
-    .ReviewBlock__description { color: $color-8; }
+    .ReviewBlock__description {
+      margin-right: 10%;
+      color: $color-8;
+    }
   }
 
   &.black {
@@ -60,5 +62,12 @@
     .ReviewBlock__summary { color: $color-3; }
 
     .ReviewBlock__description { color: $color-9; }
+  }
+
+  @include medium {
+    &.purple {
+      background-position: 81% top;
+      .ReviewBlock__description { margin-right: 0; }
+    }
   }
 }
