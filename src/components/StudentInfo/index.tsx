@@ -5,7 +5,7 @@ import StudentPicture from '../StudentPicture';
 
 const StudentInfo: FC<StudentInfoProps> = ({
   name,
-  lastName,
+  lastname,
   pictureSource,
   isStandout
 }) => {
@@ -21,7 +21,7 @@ const StudentInfo: FC<StudentInfoProps> = ({
         isStandout={isStandout}
       />
       <div className={style.infoWrapper}>
-        <div>{`${capitalize(name)} ${capitalize(lastName)}`}</div>  
+        <div>{`${capitalize(name)} ${capitalize(lastname)}`}</div>  
         <div className={style.verifiedLabel}>Verified Graduate</div>
       </div>
     </div>

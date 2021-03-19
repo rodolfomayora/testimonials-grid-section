@@ -17,13 +17,13 @@ const StudentPicture: FC<StudenPictureProps> = ({
     <div className={setStyle(isStandout)}>
       <div className={style.StudentPicture__layer}>
         <div className={style.StudentPicture__content}>
-          {
-            !!pictureSource &&
-            <img className={style.picture}
-              src={pictureSource}
-              alt="Student Pic"
-            />
-          }
+        {
+          !!pictureSource &&
+          <img className={style.picture}
+            src={pictureSource}
+            alt="Student Pic"
+          />
+        }
         </div>
       </div>
     </div>

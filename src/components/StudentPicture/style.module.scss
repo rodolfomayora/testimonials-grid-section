@@ -1,11 +1,11 @@
 @import '.././../assets/styles/config';
 
 .StudentPicture {
-  width: 30px;
+  width: 28px;
   border-radius: 50%;
   overflow: hidden;
 
-  &.standout { box-shadow: 0 0 0 2.6px $color-7; }
+  &.standout { box-shadow: 0 0 0 2px $color-7; }
 
   .StudentPicture__layer {
     position: relative;
