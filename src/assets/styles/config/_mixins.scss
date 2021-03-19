@@ -1,0 +1,26 @@
+/* Mobile First Responsive Mixins
+  ====================================*/
+
+@mixin medium {
+  @media screen and (min-width: $medium) {
+     @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin extraLarge {
+  @media screen and (min-wdith: $extraLarge) {
+    @content;
+  }
+}
+
+@mixin responsive-extra ($breackpoint) {
+  @media screen and (min-width: $breackpoint) {
+    @content;
+  }
+}
