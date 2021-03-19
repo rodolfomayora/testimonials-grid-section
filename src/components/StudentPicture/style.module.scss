@@ -1,0 +1,29 @@
+@import '.././../assets/styles/config';
+
+.StudentPicture {
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &.standout { box-shadow: 0 0 0 2.6px $color-7; }
+
+  .StudentPicture__layer {
+    position: relative;
+    padding-top: 100%;
+    background-color: $color-5;
+  }
+
+  .StudentPicture__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
