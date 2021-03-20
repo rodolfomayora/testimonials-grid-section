@@ -1,0 +1,43 @@
+$white: hsl(0, 50%, 100%);
+$gray: hsl(216, 3%, 62%);
+$black: hsl(219, 29%, 14%);
+
+.Attribution {
+  padding-top: 8px;
+  padding-bottom: 4px;
+  font-size: 11px;
+  text-align: center;
+  color: $white;
+  background-color: $black;
+
+  a {
+    color: $white;
+    line-height: 16px;
+    margin-left: 4px;
+
+    &:hover {
+      color: $gray;
+    }
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-left: 4px;
+      margin-bottom: -2px;
+      background:
+        url('../../assets/img/svg/external-link.svg')
+        scroll
+        no-repeat
+        center / cover;
+    }
+
+    .icon {
+      
+      width: 10px;
+      height: 10px;
+      fill: $white;
+    }
+  }
+}

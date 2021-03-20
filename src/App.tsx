@@ -1,11 +1,14 @@
 import React from 'react';
 import './assets/styles/style.global.scss';
-import { TestimonialsGridSection } from './components';
+import { TestimonialsGridSection, AtributionBlock } from './components';
 
 export default function App() {
   return (
-    <main className="App">
-      <TestimonialsGridSection />
-    </main>
+    <>
+      <main className="App">
+        <TestimonialsGridSection />
+      </main>
+      <AtributionBlock />
+    </>
   );
 }
