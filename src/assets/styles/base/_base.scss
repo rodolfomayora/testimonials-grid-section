@@ -15,11 +15,12 @@ figure {
   height: auto;
 }
 
-@include large {
-  .App {
+.App {
+  min-height: 100vh;
+
+  @include large {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
   }
 }
