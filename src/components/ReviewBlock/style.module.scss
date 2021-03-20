@@ -1,0 +1,73 @@
+@import '../../assets/styles/config.scss';
+
+.ReviewBlock {
+  position: relative;
+  padding: 25px 30px 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px hsl(0, 0%, 81%);
+
+  .ReviewBlock__summary {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: $color-4;
+  }
+
+  .ReviewBlock__description {
+    margin-top: 16px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: $color-8;
+  }
+
+  &.purple {
+    background:
+      $color-1
+      url('../../assets/img/svg/bg-pattern-quotation.svg')
+      no-repeat
+      scroll
+      90% top;
+
+    .ReviewBlock__summary { color: $color-4; }
+
+    .ReviewBlock__description {
+      margin-right: 10%;
+      color: $color-8;
+    }
+  }
+
+  &.black {
+    background-color: $color-3;
+    
+    .ReviewBlock__summary { color: $color-4; }
+
+    .ReviewBlock__description{ color: $color-8; }
+  }
+
+  &.gray {
+    background-color: $color-2;
+    
+    .ReviewBlock__summary { color: $color-4; }
+
+    .ReviewBlock__description { color: $color-8; }
+  }
+  
+  &.white {
+    background-color: $color-4;
+
+    .ReviewBlock__summary { color: $color-3; }
+
+    .ReviewBlock__description { color: $color-9; }
+  }
+
+  @include medium {
+    &.purple {
+      background-position: 81% top;
+      .ReviewBlock__description { margin-right: 0; }
+    }
+  }
+}

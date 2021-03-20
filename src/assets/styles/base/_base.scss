@@ -1,0 +1,25 @@
+html * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: 'Barlow Semi Condensed', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+img,
+figure {
+  max-width: 100%;
+  height: auto;
+}
+
+@include large {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}

@@ -1,11 +1,12 @@
 import React from 'react';
+import './assets/styles/style.global.scss';
+import { TestimonialsGridSection } from './components';
 
-function App() {
+export default function App() {
+  
   return (
-    <div>
-      <h1>Learn React</h1>
-    </div>
+    <main className="App">
+      <TestimonialsGridSection />
+    </main>
   );
 }
-
-export default App;

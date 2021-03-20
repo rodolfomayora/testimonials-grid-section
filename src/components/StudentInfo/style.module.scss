@@ -1,0 +1,23 @@
+ @import '../../assets/styles/config.scss';
+
+.StudentInfo {
+  display: flex;
+  align-items: center;
+
+  // StudentPicture
+  & > :first-child {
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+
+  .infoWrapper {
+    flex-grow: 1;
+    color: $color-4;
+  }
+
+  .verifiedLabel {
+    margin-top: 3px;
+    font-size: 11px;
+    color: $color-8;
+  }
+}
