@@ -21,7 +21,7 @@ const ReviewBlock: FC<ReviewBlockProps> = (props) => {
   }
 
   return (
-    <section className={`${style.ReviewBlock} ${setStyle(props.customStyle)}`}>
+    <article className={`${style.ReviewBlock} ${setStyle(props.customStyle)}`}>
       <StudentInfo
         name={props.name}
         lastname={props.lastname}
@@ -36,7 +36,7 @@ const ReviewBlock: FC<ReviewBlockProps> = (props) => {
       <p className={style.ReviewBlock__description}>
         {`" ${props.reviewDescription} "`}
       </p>
-    </section>
+    </article>
   )
 }
 

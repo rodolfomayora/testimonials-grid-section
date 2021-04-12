@@ -15,7 +15,7 @@ const TestimonialsGridSection: FC = () => {
   const normalizedData: Array<any> = sampleData.map(normalizer);
 
   return (
-    <section className={style.TestimonialsGridSection}>
+    <div className={style.TestimonialsGridSection}>
     {
       !!normalizedData.length &&
       normalizedData.map((user: any) => (
@@ -31,7 +31,7 @@ const TestimonialsGridSection: FC = () => {
         />
       ))
     }
-    </section>
+    </div>
   )
 }
 
