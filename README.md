@@ -37,6 +37,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Author
 
-- Website - [https://rodolfomayora.github.io/mi-portafolio/](https://rodolfomayora.github.io/mi-portafolio/)
+- Website - [https://rodolfo-mayora-pereda.vercel.app](https://rodolfo-mayora-pereda.vercel.app)
 - Frontend Mentor - [https://www.frontendmentor.io/profile/rodolfomayora](https://www.frontendmentor.io/profile/rodolfomayora)
 - LinkedIn - [https://www.linkedin.com/in/rodolfo-mayora-pereda-desarrollador-web](https://www.linkedin.com/in/rodolfo-mayora-pereda-desarrollador-web)
